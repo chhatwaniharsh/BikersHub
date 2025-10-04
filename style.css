@@ -1,0 +1,209 @@
+body{
+    background-color: rgb(252, 247, 237);
+    margin: 0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    /* position: fixed; */
+}   
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+header h3{
+    margin-left: 10px;
+    color: white;
+}
+header nav ul li{
+    color: white;
+    list-style: none;
+    margin-right: 15px;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: row;
+}
+
+.sec1_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+}
+
+.freeshipping{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.free1{
+    text-align: center;
+    margin-right: 210px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+.btn1{
+    margin: 10px;
+    height: 35px;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: orange;
+    color: white;
+    border-color: white;
+}
+.btn2{
+    margin: 10px;
+    height: 35px;
+    width: 100%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
+.sec1_2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.deal{
+    border: solid;
+    width: 42%;
+    height: 162px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    box-shadow: 25px;
+    margin-top: 10px;
+    margin-left: 140px;
+    background-color: white;
+}
+
+.deal img{
+    margin: 1%;
+    border: solid;
+    border-radius: 5px;
+    border-color: rgb(255, 233, 233);
+    box-shadow: 25px;
+    background-color: rgb(255, 234, 196);
+}
+
+.product{
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.productlist{
+    display: flex;
+    flex-direction: row;
+}
+
+.product .productlist div{
+    width: 300px;
+    background-color: white;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 1px 1px 1px black;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us{
+    text-align: center;
+    margin-top: 1%;
+    background-color: lightgrey;
+}
+
+.about_img{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px 5px black;
+    background-color: lightgray;
+}
+
+.about_img .images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about_img .images a{
+    text-decoration: none;
+    color: red;
+}
+
+.about_img .images img{
+    border-radius: 25px;
+    border: solid;
+}
+
+.contact{margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contactus{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contactus_form{
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    max-width: 400px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.contactus_details{
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    max-width: 400px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.contactus_details a{
+    text-decoration: none;
+    color: blue;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
